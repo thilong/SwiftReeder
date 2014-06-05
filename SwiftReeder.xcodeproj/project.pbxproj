@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2E36791940668600E0CC83 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E36781940668600E0CC83 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2D2E367E194074FA00E0CC83 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E367D194074FA00E0CC83 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2D2E36801940754B00E0CC83 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2E367F1940754B00E0CC83 /* libxml2.dylib */; };
+		2D57CF221940C77F0046F497 /* FeedEntryList.html in Resources */ = {isa = PBXBuildFile; fileRef = 2D57CF211940C77F0046F497 /* FeedEntryList.html */; };
+		2D57CF241940CB500046F497 /* FeedEntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57CF231940CB500046F497 /* FeedEntryDetailViewController.swift */; };
+		2D57CF2C1940E68D0046F497 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D57CF2A1940E68D0046F497 /* Default-568h@2x.png */; };
+		2D57CF2D1940E68D0046F497 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D57CF2B1940E68D0046F497 /* Default@2x.png */; };
+		2D6BDE83194004DD00F2828B /* FeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BDE82194004DD00F2828B /* FeedManager.swift */; };
+		2D6BDE851940121000F2828B /* FeedRssListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BDE841940121000F2828B /* FeedRssListViewController.swift */; };
+		2D6BDE871940133600F2828B /* RemoteDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BDE861940133600F2828B /* RemoteDataLoader.swift */; };
+		2DD16D7B193F1A5900728480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD16D7A193F1A5900728480 /* AppDelegate.swift */; };
+		2DD16D7D193F1A5900728480 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD16D7C193F1A5900728480 /* Images.xcassets */; };
+		2DD16D9A193F1AE000728480 /* FeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD16D99193F1AE000728480 /* FeedListViewController.swift */; };
+		2DD16D9F193F203F00728480 /* OCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD16D9E193F203F00728480 /* OCBridge.m */; };
+		2DD16DA1193F213000728480 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD16DA0193F213000728480 /* UIKit.framework */; };
+		2DD16DA3193F213800728480 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD16DA2193F213800728480 /* CoreFoundation.framework */; };
+		2DD16DA6193F246E00728480 /* DefaultFeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD16DA5193F246E00728480 /* DefaultFeedListViewController.swift */; };
+		2DD16DAA193F689000728480 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD16DA9193F689000728480 /* Feed.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D2E36771940668600E0CC83 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2D2E36781940668600E0CC83 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2D2E367C194074FA00E0CC83 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		2D2E367D194074FA00E0CC83 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		2D2E367F1940754B00E0CC83 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		2D57CF211940C77F0046F497 /* FeedEntryList.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FeedEntryList.html; sourceTree = "<group>"; };
+		2D57CF231940CB500046F497 /* FeedEntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedEntryDetailViewController.swift; sourceTree = "<group>"; };
+		2D57CF2A1940E68D0046F497 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D57CF2B1940E68D0046F497 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2D6BDE82194004DD00F2828B /* FeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedManager.swift; sourceTree = "<group>"; };
+		2D6BDE841940121000F2828B /* FeedRssListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedRssListViewController.swift; sourceTree = "<group>"; };
+		2D6BDE861940133600F2828B /* RemoteDataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataLoader.swift; sourceTree = "<group>"; };
+		2DD16D75193F1A5900728480 /* SwiftReeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftReeder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD16D79193F1A5900728480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD16D7A193F1A5900728480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DD16D7C193F1A5900728480 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DD16D99193F1AE000728480 /* FeedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedListViewController.swift; sourceTree = "<group>"; };
+		2DD16D9C193F203E00728480 /* SwiftReeder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftReeder-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DD16D9D193F203F00728480 /* OCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBridge.h; sourceTree = "<group>"; };
+		2DD16D9E193F203F00728480 /* OCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCBridge.m; sourceTree = "<group>"; };
+		2DD16DA0193F213000728480 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DD16DA2193F213800728480 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2DD16DA5193F246E00728480 /* DefaultFeedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFeedListViewController.swift; sourceTree = "<group>"; };
+		2DD16DA9193F689000728480 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD16D72193F1A5900728480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2E36801940754B00E0CC83 /* libxml2.dylib in Frameworks */,
+				2DD16DA3193F213800728480 /* CoreFoundation.framework in Frameworks */,
+				2DD16DA1193F213000728480 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2E36761940668600E0CC83 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D2E36771940668600E0CC83 /* JSONKit.h */,
+				2D2E36781940668600E0CC83 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		2D2E367A1940668A00E0CC83 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				2D2E367B194074FA00E0CC83 /* GDataXML */,
+				2D2E36761940668600E0CC83 /* JSONKit */,
+			);
+			name = ThirdPart;
+			sourceTree = "<group>";
+		};
+		2D2E367B194074FA00E0CC83 /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				2D2E367C194074FA00E0CC83 /* GDataXMLNode.h */,
+				2D2E367D194074FA00E0CC83 /* GDataXMLNode.m */,
+			);
+			path = GDataXML;
+			sourceTree = "<group>";
+		};
+		2DD16D6C193F1A5900728480 = {
+			isa = PBXGroup;
+			children = (
+				2D2E367A1940668A00E0CC83 /* ThirdPart */,
+				2DD16DA4193F213E00728480 /* Frameworks */,
+				2DD16D77193F1A5900728480 /* SwiftReeder */,
+				2DD16D76193F1A5900728480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD16D76193F1A5900728480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD16D75193F1A5900728480 /* SwiftReeder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD16D77193F1A5900728480 /* SwiftReeder */ = {
+			isa = PBXGroup;
+			children = (
+				2DD16D96193F1AC100728480 /* Core */,
+				2DD16D97193F1AC100728480 /* Resource */,
+				2DD16D98193F1AC100728480 /* UI */,
+				2DD16D7A193F1A5900728480 /* AppDelegate.swift */,
+				2DD16D7C193F1A5900728480 /* Images.xcassets */,
+				2DD16D78193F1A5900728480 /* Supporting Files */,
+			);
+			path = SwiftReeder;
+			sourceTree = "<group>";
+		};
+		2DD16D78193F1A5900728480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DD16D79193F1A5900728480 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DD16D96193F1AC100728480 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2DD16D9D193F203F00728480 /* OCBridge.h */,
+				2DD16D9E193F203F00728480 /* OCBridge.m */,
+				2DD16D9C193F203E00728480 /* SwiftReeder-Bridging-Header.h */,
+				2DD16DA9193F689000728480 /* Feed.swift */,
+				2D6BDE82194004DD00F2828B /* FeedManager.swift */,
+				2D6BDE861940133600F2828B /* RemoteDataLoader.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2DD16D97193F1AC100728480 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2D57CF2A1940E68D0046F497 /* Default-568h@2x.png */,
+				2D57CF2B1940E68D0046F497 /* Default@2x.png */,
+				2D57CF211940C77F0046F497 /* FeedEntryList.html */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2DD16D98193F1AC100728480 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2DD16D99193F1AE000728480 /* FeedListViewController.swift */,
+				2DD16DA5193F246E00728480 /* DefaultFeedListViewController.swift */,
+				2D6BDE841940121000F2828B /* FeedRssListViewController.swift */,
+				2D57CF231940CB500046F497 /* FeedEntryDetailViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2DD16DA4193F213E00728480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D2E367F1940754B00E0CC83 /* libxml2.dylib */,
+				2DD16DA2193F213800728480 /* CoreFoundation.framework */,
+				2DD16DA0193F213000728480 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD16D74193F1A5900728480 /* SwiftReeder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD16D8C193F1A5900728480 /* Build configuration list for PBXNativeTarget "SwiftReeder" */;
+			buildPhases = (
+				2DD16D71193F1A5900728480 /* Sources */,
+				2DD16D72193F1A5900728480 /* Frameworks */,
+				2DD16D73193F1A5900728480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftReeder;
+			productName = SwiftReeder;
+			productReference = 2DD16D75193F1A5900728480 /* SwiftReeder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD16D6D193F1A5900728480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = thilong;
+				TargetAttributes = {
+					2DD16D74193F1A5900728480 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 2DD16D70193F1A5900728480 /* Build configuration list for PBXProject "SwiftReeder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DD16D6C193F1A5900728480;
+			productRefGroup = 2DD16D76193F1A5900728480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD16D74193F1A5900728480 /* SwiftReeder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD16D73193F1A5900728480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D57CF2D1940E68D0046F497 /* Default@2x.png in Resources */,
+				2DD16D7D193F1A5900728480 /* Images.xcassets in Resources */,
+				2D57CF221940C77F0046F497 /* FeedEntryList.html in Resources */,
+				2D57CF2C1940E68D0046F497 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD16D71193F1A5900728480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD16D9F193F203F00728480 /* OCBridge.m in Sources */,
+				2DD16DAA193F689000728480 /* Feed.swift in Sources */,
+				2D2E36791940668600E0CC83 /* JSONKit.m in Sources */,
+				2DD16D7B193F1A5900728480 /* AppDelegate.swift in Sources */,
+				2D6BDE851940121000F2828B /* FeedRssListViewController.swift in Sources */,
+				2D6BDE83194004DD00F2828B /* FeedManager.swift in Sources */,
+				2DD16DA6193F246E00728480 /* DefaultFeedListViewController.swift in Sources */,
+				2D2E367E194074FA00E0CC83 /* GDataXMLNode.m in Sources */,
+				2D6BDE871940133600F2828B /* RemoteDataLoader.swift in Sources */,
+				2DD16D9A193F1AE000728480 /* FeedListViewController.swift in Sources */,
+				2D57CF241940CB500046F497 /* FeedEntryDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2DD16D8A193F1A5900728480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DD16D8B193F1A5900728480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DD16D8D193F1A5900728480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = SwiftReeder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftReeder/Core/SwiftReeder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DD16D8E193F1A5900728480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = SwiftReeder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftReeder/Core/SwiftReeder-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD16D70193F1A5900728480 /* Build configuration list for PBXProject "SwiftReeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD16D8A193F1A5900728480 /* Debug */,
+				2DD16D8B193F1A5900728480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD16D8C193F1A5900728480 /* Build configuration list for PBXNativeTarget "SwiftReeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD16D8D193F1A5900728480 /* Debug */,
+				2DD16D8E193F1A5900728480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DD16D6D193F1A5900728480 /* Project object */;
+}
