@@ -3,7 +3,8 @@ SwiftReeder
 
 Swift demo, simple rss reader for 163.com.
 
-used following framework:
+use following frameworks:
+
   GDataXML 
   JSONKit
   
